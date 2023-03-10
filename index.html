@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>Book</title>
+    <!-- Meta Links -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Main CSS File with Components -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-----------------
+      [1]Landing Page
+    ------------------>
+    <header>
+        <!-- Landing Page Section Containers -->
+        <div class="navigation__section--container">
+            <!-- Section [1] - Navigation -->
+            <section>
+                <nav class="navigation">
+                    <!-- Logo -->
+                    <figure class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </figure>
+
+                    <!-- Navigation Container -->
+                    <div class="navigation__links--container">
+                        <!-- Navigation Links -->
+                        <ul class="navigation__links">
+                            <!-- Books -->
+                            <a href="">
+                                <li class="navigation__link"><i class="fas fa-book-open"></i> Books</li>
+                            </a>
+                            <!-- Audio Books -->
+                            <a href="" class="hover">
+                                <li class=""><i class="fas fa-headphones-alt"></i> Audio
+                                    Books
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <!-- Favourites + Cart Button Container -->
+                    <div class="svg__icons--container">
+                        <!-- Favourites SVG -->
+                        <a class="svg__icon" href="">
+                            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.75 6.75a2 2 0 0 1 2-2h6.5a2 2 0 0 1 2 2v12.5L12 14.75l-5.25 4.5V6.75Z">
+                                </path>
+                            </svg>
+                        </a>
+                        <!-- Cart SVG -->
+                        <a class="svg__icon" href="">
+                            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.75 7.75h11.5l-1.637 6.958a2 2 0 0 1-1.947 1.542h-4.127a2 2 0 0 1-1.933-1.488L7.75 7.75Zm0 0-.75-3H4.75">
+                                </path>
+                                <path fill="currentColor" stroke="none" d="M10 18a1 1 0 1 0 0 2 1 1 0 1 0 0-2z"></path>
+                                <path fill="currentColor" stroke="none" d="M17 18a1 1 0 1 0 0 2 1 1 0 1 0 0-2z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </nav>
+            </section>
+
+            <!-- Navigation Divider -->
+            <div class="divider"></div>
+
+            <!-- Landing Page Section Container -->
+            <section class="landing__page--container">
+                <!-- Landing Page Text Container -->
+                <div class="landing__page-text--container">
+                    <h1 class="landing__page--text">New & Trending</h1>
+                    <p>| Explore new worlds from authors</p>
+                    <!-- Actual search box -->
+                    <form class="search">
+                        <input type="text" placeholder="| Titles, Authors or Topics" />
+                    </form>
+                </div>
+
+                <!-- Landing Page Book Image -->
+                <figure class="landingPage__book--container">
+                    <img class="landingPage__book--cover" src="Book Covers/The_Last_Thing_He_Told_Me.jpg" alt="">
+                </figure>
+
+                <!-- Landing Page Card - Stephen King -->
+                <div class="authorOfTheWeek__card">
+                    <span class="author__name">Stephen King Collection</span>
+                    <span class="author__booksCount">78 Books</span>
+                    <figure>
+                        <img class="author__profle--image" src="/images/Stephen.jfif" alt="">
+                    </figure>
+                </div>
+                <h2 class="vertical__text">Author of the week</h2>
+
+                <!-- Last Played Audio Book Card -->
+                <div class="lastListened__card">
+                    <span class="audioBook__name">False Witness: A Novel</span>
+                    <span class="audioBook__author">Karin Slaughter</span>
+                    <figure class="audioBook__disc">
+                        <img class="audioBook__disc" src="./images/false__witness.png" alt="">
+                    </figure>
+                    <div class="audioBook__buttons">
+                        <a href="#"><i class="fas fa-backward"></i></a>
+                        <a href="#">
+                            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.25 6.75v10.5"></path>
+                                <path d="M8.75 6.75v10.5"></path>
+                            </svg>
+                        </a>
+                        <a href=""><i class="fas fa-forward"></i></a>
+                    </div>
+                </div>
+                <h2 class="vertical__text">Last Listened</h2>
+            </section>
+
+            <!-- Section Divider -->
+            <div class="divider"></div>
+
+            <!-----------------------------
+                 Recent BestSellers Section
+                ----------------------------->
+            <section class="recent__bestSellers--container">
+                <!-- Vertical Text -->
+                <h1 class="bestSellers__vertical--text">Recent Bestsellers</h1>
+
+                <!-------------------
+                   [1] Left to fear 
+                --------------------->
+                <div class="bestSeller__book--container">
+                    <!-- Book Cover -->
+                    <figure class="bestSeller__book--cover">
+                        <img class="bestSeller__book--cover" src="/Book Covers/left_to_fear.jpg" alt="">
+                    </figure>
+                    <!-- Book Information -->
+                    <div class="bestSeller__book--info">
+                        <!-- Star Rating -->
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <!-- Book Title -->
+                        <span class="bestSeller__book--title">False Witness: A Novel</span>
+                        <!-- Book Author -->
+                        <span class="bestSeller__book--author">Karin Slaughter</span>
+                        <!-- Buy Now Button -->
+                        <a href="Recent BestSellers/left_to_fear.html"><button class="buyNow__button">Buy Now</button></a>
+                    </div>
+
+                    <!------------------
+                      [2]Atomic Habits
+                    -------------------->
+                    <div class="bestSeller__book--container">
+                        <!-- Book Cover -->
+                        <figure class="bestSeller__book--cover">
+                            <img class="bestSeller__book--cover" src="/Book Covers/Atomic_Habits.jpg" alt="">
+                        </figure>
+                        <!-- Book Information -->
+                        <div class="bestSeller__book--info">
+                            <!-- Star Rating -->
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <!-- Book Title -->
+                            <span class="bestSeller__book--title">Atomic Habits</span>
+                            <br>
+                            <!-- Book Author -->
+                            <span class="bestSeller__book--author">James Clear</span>
+                            <!-- Buy Now Button -->
+                            <button class="buyNow__button">Buy Now</button>
+                        </div>
+
+                        <!---------------------- 
+                         [3] Rich Dad Poor Dad
+                        ---------------------->
+                        <div class="bestSeller__book--container">
+                            <!-- Book Cover -->
+                            <figure class="bestSeller__book--cover">
+                                <img class="bestSeller__book--cover" src="/Book Covers/rich_dad_poor_dad.jpg" alt="">
+                            </figure>
+                            <!-- Book Information -->
+                            <div class="bestSeller__book--info">
+                                <!-- Star Rating -->
+                                <div class="stars">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <!-- Book Title -->
+                                <span class="bestSeller__book--title">Rich Dad Poor Dad</span>
+                                <!-- Book Author -->
+                                <span class="bestSeller__book--author">Robert Kiyosaki</span>
+                                <!-- Buy Now Button -->
+                                <button class="buyNow__button">Buy Now</button>
+                            </div>
+
+                            <!-- Tilted Book -->
+                            <figure class="tilted__book--container">
+                                <img src="Book Covers/can't_hurt_me.jpg" alt="">
+                            </figure>
+            </section>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="services__container">
+            <h1 class="services__heading">| Services</h1>
+            <div class="services">
+                <!-- Serivce [1] -->
+                <div class="service">
+                    <svg width="29" height="29" fill="none" stroke="#ffedcb" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 3h15v13H1z"></path>
+                        <path d="M16 8h4l3 3v5h-7V8z"></path>
+                        <path d="M5.5 16a2.5 2.5 0 1 0 0 5 2.5 2.5 0 1 0 0-5z"></path>
+                        <path d="M18.5 16a2.5 2.5 0 1 0 0 5 2.5 2.5 0 1 0 0-5z"></path>
+                    </svg>
+                    <span class="">Free Delivery</span>
+                    <p>| Free shipping nationwide in Bulgaria</p>
+                </div>
+                <!-- Serivce [1] -->
+                <div class="service">
+                    <svg width="29" height="29" fill="none" stroke="#ffedcb" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="22" height="16" x="1" y="4" rx="2" ry="2"></rect>
+                        <path d="M1 10h22"></path>
+                    </svg>
+                    <span>Secure Payment</span>
+                    <p>| 100% Secured payment and information</p>
+                </div>
+
+                <!-- Serivce [1] -->
+                <div class="service">
+                    <svg width="29" height="29" fill="none" stroke="#ffedcb" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    <span>30 Days Return</span>
+                    <p>| Simply return it within 30 days for an exchange</p>
+                </div>
+
+                <!-- Serivce [1] -->
+                <div class="service">
+                    <svg width="29" height="29" fill="none" stroke="#ffedcb" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                        <path d="M12 16v-4"></path>
+                        <path d="M12 8h.01"></path>
+                    </svg>
+                    <span>24/7 Support</span>
+                    <p>| Contact us anytime during the day, we are here for you.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- Column 1 Container -->
+        <div class="column_1">
+            <!-- Footer Logo -->
+            <figure class="footer__logo">
+                <img class="footer__logo" src="./images/logo.png" alt="">
+            </figure>
+            <!-- Footer Paragraph -->
+            <p class="footer__paragraph">Discover a world of books at our store! We offer a vast selection of titles,
+                from the latest releases to
+                timeless classics. Shop with us and find your next favorite read.</p>
+            <!-- Social Media Contacts -->
+            <div class="contacts">
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Column 2 Container -->
+        <div class="column_2">
+            <!-- Map Container -->
+            <div class="map__container">
+                <!-- Column 2 Title -->
+                <h2 class="coulumn__2--title">| Get in touch</h2>
+                <!-- Map Code -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.4739598281626!2d24.611215011230957!3d43.40892324114598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ab8b54c05a9b7f%3A0x45187cfb33bdef77!2z0J_Qk9CV0KXQog!5e0!3m2!1sbg!2sbg!4v1678343077844!5m2!1sbg!2sbg"
+                    width="230" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="column_3">
+            <!-- Footer Contacts -->
+            <div class="footer__contacts">
+                <!-- Phone -->
+                <i class="fas fa-phone-alt"><span> 088 888 8888</span></i>
+                <!-- Adress -->
+                <i class="fas fa-map-pin"><span> ul. „Tsar Samuil“ 2</span></i>
+                <!-- Email -->
+                <i class="fas fa-envelope"><span> Books@gmail.com</span></i>
+            </div>
+
+            <div class="subscribe__form--container">
+                <h2 class="subscribe__title">| Subscribe</h2>
+                <form class="subscribe__input" action="">
+                    <input type="text" placeholder="| Email Adress">
+                    <button class="subscribe__button"><svg width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="m13.75 6.75 5.5 5.25-5.5 5.25"></path>
+                            <path d="M19 12H4.75"></path>
+                        </svg></button>
+                </form>
+                <p class="subscribe__paragraph">Subscribe to our news letter and stay updated for the latest news.</p>
+            </div>
+        </div>
+    </footer>
+    <section class="copyright__notice">
+        <span class="copyright__text">&copy; Copyright 2023. All rights Reserved</span>
+    </section>
+</body>
+
+</html>

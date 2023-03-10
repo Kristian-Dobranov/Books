@@ -1,0 +1,47 @@
+/* FontAwesome Icons */
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+/* Fonts */
+/* [1] Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+/* [2]  Libre Caslon Text*/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap");
+
+/* Main Colors */
+:root {
+  --yellow: #daaa63;
+  --brown: #2c1810;
+  --body: #f2e4cf;
+  --container: #f8f3ed;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--body);
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+
+.vertical__text {
+  padding: 10px;
+  writing-mode: vertical-lr;
+}
+
+/* Hover Effect */
+.hover {
+  --s: 0.2em; 
+  --c: var(--yellow); 
+  padding-bottom: 5px;
+  background: linear-gradient(90deg, var(--c) 50%, #000 0)
+      calc(100% - var(--_p, 0%)) / 200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.5s;
+}
+.hover:hover {
+  --_p: 100%;
+}

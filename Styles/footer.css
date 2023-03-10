@@ -1,0 +1,129 @@
+/* Footer Main */
+.footer {
+  padding: 4rem;
+  background-color: var(--container);
+  height: 200px;
+  display: flex;
+}
+
+/* Column 1 */
+.footer .column_1 {
+  width: 500px;
+}
+
+.footer .column_1 .footer__logo {
+  width: 200px;
+}
+
+.footer .column_1 .footer__paragraph {
+  margin-left: 15px;
+  letter-spacing: 1px;
+  line-height: 1.25rem;
+}
+
+.footer .column_1 .contacts {
+  margin-left: 15px;
+  margin-top: 15px;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer .column_1 .contacts i {
+  font-size: 1.25rem;
+  color: var(--brown);
+}
+
+/* Column 2 */
+.footer .column__2 {
+  display: flex;
+}
+
+.footer .column_2 .coulumn__2--title {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.footer .column_2 .map__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer .column_3 {
+  display: flex;
+  gap: 5rem;
+}
+
+.footer .footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 200px;
+}
+
+.footer .footer__contacts span {
+  color: black;
+}
+
+.footer .footer__contacts .fa-map-pin {
+  color: red;
+}
+
+.footer .footer__contacts .fa-phone-alt {
+  color: gray;
+}
+
+.footer .footer__contacts .fa-envelope {
+  color: rgb(136, 136, 200);
+}
+
+/* Subscribe Form */
+.subscribe__form--container {
+}
+
+.subscribe__form--container .subscribe__title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.subscribe__form--container .subscribe__input {
+  display: flex;
+}
+
+.subscribe__form--container .subscribe__input input {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+.subscribe__form--container .subscribe__input .subscribe__button {
+  border: none;
+  background-color: var(--yellow);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.subscribe__form--container .subscribe__input .subscribe__button:hover {
+  background-color: #cf8f30;
+  cursor: pointer;
+}
+
+.subscribe__form--container .subscribe__paragraph {
+  margin-top: 1rem;
+}
+
+.copyright__notice{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.copyright__notice .copyright__text{
+  text-align: center;
+}

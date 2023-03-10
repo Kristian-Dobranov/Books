@@ -1,0 +1,15 @@
+.book__product--page{
+   padding: 3rem;
+   display: flex;
+   gap: 8rem;
+}
+
+.book__product--page .book__product--cover{
+    width: 400px;
+}
+
+.book__product--page .book__product--details{
+    display: flex;
+    gap: 3rem;
+    margin-top: 1.50rem;
+}

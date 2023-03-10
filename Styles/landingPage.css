@@ -1,0 +1,195 @@
+/*============= 
+ Landing Page
+=============*/
+.landing__page--container {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+/* Displayed Text Container */
+.landing__page--container .landing__page-text--container {
+  margin-right: 5rem;
+}
+
+.landing__page--container .landing__page-text--container .landing__page--text {
+  font-size: 4rem;
+  font-family: "Libre Caslon Text", serif;
+  max-width: 211px;
+}
+
+.landing__page--container .landing__page-text--container .search input {
+  width: 160px;
+  padding: 10px 15px;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+
+.landing__page--container .landing__page-text--container p {
+  margin: 1.5rem 0 1.5rem 0.3rem;
+  color: #a0958e;
+  width: 279px;
+}
+
+.landingPage__book--container .landingPage__book--cover {
+  width: 300px;
+  -webkit-box-shadow: 11px 24px 55px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 24px 55px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 24px 55px -11px rgba(0, 0, 0, 0.75);
+}
+
+/* Author of the week card */
+.authorOfTheWeek__card {
+  position: relative;
+  padding: 1rem;
+  margin-left: 4rem;
+  height: 350px;
+  max-width: 300px;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  -webkit-box-shadow: 11px 24px 55px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 24px 55px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 24px 55px -11px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+.authorOfTheWeek__card .author__name {
+  color: white;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.authorOfTheWeek__card .author__booksCount {
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+}
+
+.author__profle--image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 232px;
+}
+
+/* Last Listened Audio Book Card */
+.lastListened__card {
+  padding: 1rem;
+  margin-left: 4rem;
+  height: 350px;
+  max-width: 400px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  -webkit-box-shadow: 11px 24px 55px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 24px 55px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 24px 55px -11px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+.lastListened__card .audioBook__name {
+  color: rgb(0, 0, 0);
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.lastListened__card .audioBook__disc {
+  width: 180px;
+  margin: auto;
+}
+
+.lastListened__card .audioBook__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.lastListened__card .audioBook__buttons a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Recent BestSellers Section */
+.recent__bestSellers--container {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+}
+
+.recent__bestSellers--container .bestSellers__vertical--text {
+  writing-mode: sideways-lr;
+  text-orientation: mixed;
+}
+
+.recent__bestSellers--container .bestSeller__book--container {
+  display: flex;
+  gap: 2rem;
+  margin-left: 3rem;
+}
+
+.recent__bestSellers--container .bestSeller__book--cover img {
+  width: 120px;
+  box-shadow: 1px 1px 18px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 18px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 18px -1px rgba(0, 0, 0, 0.75);
+}
+
+.bestSeller__book--container .bestSeller__book--info {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.bestSeller__book--container .bestSeller__book--info .stars {
+  flex: none;
+}
+
+.bestSeller__book--container .bestSeller__book--info .bestSeller__book--title {
+  width: 140px;
+}
+
+.bestSeller__book--container .bestSeller__book--info .bestSeller__book--author {
+  color: #a0958e;
+}
+
+.buyNow__button {
+  width: 7rem;
+  padding: 0.75rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  border: 1px solid var(--yellow);
+  background-color: white;
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.buyNow__button:hover {
+  background-color: var(--yellow);
+  color: white;
+  transition: ease-in-out 200ms;
+}
+/* Stars Color */
+.checked {
+  color: #facc15;
+}
+
+.tilted__book--container img {
+  width: 120px;
+  margin-left: 5rem;
+  transform: rotate(12deg);
+}

@@ -1,0 +1,53 @@
+/* Landing Page Container */
+.navigation__section--container {
+  position: relative;
+  background-color: var(--container);
+  height: 1000px;
+  margin: 4rem 3rem;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.navigation__section--container .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.navigation__section--container .logo img {
+  width: 150px;
+}
+
+/* Navigation */
+.navigation__section--container .navigation__links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navigation__section--container .navigation__links a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.navigation__section--container
+  .navigation__links
+  .navigation__link:nth-child(1) {
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  background-color: var(--yellow);
+}
+
+.svg__icons--container a {
+  text-decoration: none;
+  color: black;
+}
+
+.divider {
+  border-bottom: 2px solid var(--body);
+  border-radius: 10px;
+  margin-top: 1rem;
+}
