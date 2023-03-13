@@ -1,0 +1,58 @@
+.books__container {
+  margin: 6rem 10rem;
+}
+
+.navigation__section--container {
+  height: 1800px;
+}
+
+.category {
+  font-size: 2rem;
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 600;
+  margin: 2rem 0;
+  color: #504538;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 4rem;
+  margin-top: 1rem;
+}
+
+.books img {
+  width: 200px;
+  height: 300px;
+}
+
+.books .book__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.books .book__container .book__title {
+  width: 200px;
+  margin: 10px 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.books .book__container .book__author {
+  color: #a0958e;
+  margin-bottom: 10px;
+}
+
+.books .book__container .book__price{
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.books .book__container .stars .reviews{
+  color: #a0958e;
+}
+
+.books .book__container .stars .reviews:hover{
+  text-decoration: underline;
+}
